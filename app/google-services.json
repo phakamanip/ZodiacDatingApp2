@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "851932465865",
+    "firebase_url": "https://zdating2.firebaseio.com",
+    "project_id": "zdating2",
+    "storage_bucket": "zdating2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851932465865:android:3efd8fb3afe3f465",
+        "android_client_info": {
+          "package_name": "com.phakamanipega.zodiacdatingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851932465865-1u7tpvqad39tmbev7eu2io1dh4kcaltu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phakamanipega.zodiacdatingapp",
+            "certificate_hash": "f84e068e9b19b66c90060aa6392fc6040630ab66"
+          }
+        },
+        {
+          "client_id": "851932465865-5vuj8gtpr5hhfho033hbfjqbtul66ipk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKydwMc00M20qDvxTUCku2xmG1aN4vfAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851932465865-5vuj8gtpr5hhfho033hbfjqbtul66ipk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
