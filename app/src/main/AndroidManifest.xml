@@ -25,7 +25,10 @@
         <service
             android:name=".google"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
+        <activity android:name=".ChattingActivity" />
+        <activity android:name=".MatchesActivity"></activity>
     </application>
 
 </manifest>
