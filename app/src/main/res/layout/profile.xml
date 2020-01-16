@@ -6,49 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/SuntxtView"
-        android:layout_width="89dp"
-        android:layout_height="18dp"
-        android:layout_marginEnd="180dp"
-        android:layout_marginRight="180dp"
-        android:layout_marginTop="68dp"
-        android:text="Sunsign"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/biograpy_status" />
-
-
-    <TextView
-        android:id="@+id/RisingtxtView"
-        android:layout_width="89dp"
-        android:layout_height="18dp"
-        android:layout_marginEnd="180dp"
-        android:layout_marginRight="180dp"
-        android:layout_marginTop="56dp"
-        android:text="Risingsign"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/MoontxtView" />
-
-    <TextView
-        android:id="@+id/MoontxtView"
-        android:layout_width="89dp"
-        android:layout_height="18dp"
-        android:layout_marginEnd="180dp"
-        android:layout_marginRight="180dp"
-        android:layout_marginTop="64dp"
-        android:text="Moonsign"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SuntxtView" />
-
 
     <EditText
         android:id="@+id/biograpy_status"
-        android:layout_width="351dp"
-        android:layout_height="124dp"
-        android:layout_marginBottom="392dp"
+        android:layout_width="325dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="196dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -59,145 +22,56 @@
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_Messages"
-        android:layout_width="114dp"
-        android:layout_height="27dp"
-        android:layout_marginBottom="44dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginStart="100dp"
+        android:layout_width="154dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
         android:background="@android:drawable/button_onoff_indicator_on"
         android:text="message"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/ageView"
-        android:layout_width="79dp"
-        android:layout_height="18dp"
-        android:layout_marginBottom="2dp"
-        android:layout_marginEnd="164dp"
-        android:layout_marginRight="164dp"
-        android:layout_marginTop="32dp"
-        android:text="Age"
-        app:layout_constraintBottom_toTopOf="@+id/occupationView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/occupationView"
-        android:layout_width="79dp"
-        android:layout_height="18dp"
-        android:layout_marginEnd="164dp"
-        android:layout_marginRight="164dp"
-        android:layout_marginTop="8dp"
-        android:text="Occupation"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ageView" />
-
-    <TextView
-        android:id="@+id/countryView"
-        android:layout_width="79dp"
-        android:layout_height="18dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginEnd="164dp"
-        android:layout_marginRight="164dp"
-        android:layout_marginTop="8dp"
-        android:text="Country/State"
-        app:layout_constraintBottom_toTopOf="@+id/biograpy_status"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/occupationView"
-        app:layout_constraintVertical_bias="0.0" />
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginStart="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/biograpy_status"
+        android:layout_width="160dp"
+        android:layout_height="149dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@mipmap/ic_launcher_round" />
 
+    <Button
+        android:id="@+id/button_Matches"
+        android:layout_width="154dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="60dp"
+
+        android:layout_marginLeft="188dp"
+        android:layout_marginStart="188dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:text="MATCHES"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="69dp"
-        android:layout_height="16dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="8dp"
-        android:text="Arnold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.258" />
-
-    <ImageView
-        android:id="@+id/SunImage"
-        android:layout_width="53dp"
-        android:layout_height="57dp"
+        android:layout_width="330dp"
+        android:layout_height="181dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="56dp"
-        app:layout_constraintEnd_toStartOf="@+id/SuntxtView"
-        app:layout_constraintHorizontal_bias="0.698"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/biograpy_status"
-        app:srcCompat="@drawable/sunview" />
-
-    <ImageView
-        android:id="@+id/MoonImage"
-        android:layout_width="53dp"
-        android:layout_height="57dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SunImage"
-        app:srcCompat="@drawable/moonview" />
-
-    <ImageView
-        android:id="@+id/RisingImage"
-        android:layout_width="53dp"
-        android:layout_height="57dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintEnd_toStartOf="@+id/RisingtxtView"
-        app:layout_constraintTop_toBottomOf="@+id/MoonImage"
-        app:srcCompat="@drawable/risingview" />
-
-    <Button
-        android:id="@+id/button_Matches"
-        android:layout_width="114dp"
-        android:layout_height="27dp"
-        android:layout_marginBottom="44dp"
-
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
-        android:background="@android:drawable/button_onoff_indicator_on"
-        android:text="MATCHES"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/button_Logout"
-        android:layout_width="wrap_content"
-        android:layout_height="29dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:text="logout"
-        android:textSize="9dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/biograpy_status"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

@@ -30,7 +30,7 @@ public class Loginpage extends AppCompatActivity implements View.OnClickListener
     protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
 
-            setContentView(R.layout.login);
+            setContentView(R.layout.loginPage );
 
 
                 try {
